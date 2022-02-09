@@ -47,9 +47,26 @@ Las instalaciones son diferentes entre Windows Pro Edition y Windows Home Editio
     <p align="center">
      <img src="./images/info_sym.jpg" />
     </p>
+    
 ###  2.2. <a name='VerificarVirtualizacionWindows'></a>Verificar el estado de la virtualización en Windowsows 
+Ahora debemos verificar información respecto a la virtualización, especificamente debes ver si nuestro sistema operativo tiene habilitada la virtualización. Para comprobar esto, sigue los siguientes pasos. 
 
-
+1. Ejecutar **win + R**
+   <p align="center">
+    <img src="./images/win+z.jpg" />
+   </p>
+2. Escribir el comando **taskmgr** en la ventana que se abre (Ejecutar)
+   <p align="center">
+    <img src="./images/taskmgr.jpg" />
+   </p>
+3. Se abrirá el administrador de tareas, aquí debemos dirigirnos a la pestaña de *Performance* o *rendimiento*.
+   <p align="center">
+    <img src="./images/performance.jpg" />
+   </p>
+4. Posteriormente, aquí vamos a comprobar si la virtualización está habilitada o no. Así cómo se muestra en la imagen, en mi caso está habilitada. 
+   <p align="center">
+    <img src="./images/option_virtualization.jpg" />
+   </p>
 
 ###  2.2. <a name='VerificarMetodo'></a>Verificar por cual método instalar Docker Desktop
 
