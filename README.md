@@ -23,7 +23,6 @@ Manual de instalación de Docker Desktop para Windows.
 	* 3.2. [Crear una cuenta en Docker Hub](#DockerHub)
     * 3.3. [Instalar Docker Desktop for Windows](#EjecutarInstaladorDockerWindows)
     * 3.4. [Configurar Docker Desktop](#ConfigDockerDesktop)
-
  
 ##  2. <a name='Prerequisitos'></a>Prerequisitos
 Primeramente debemos tener nociones sobre nuestro sistema operativo, la versión y el build que posee, así cómo conocer si tiene habilitada la opción de virtualización.
@@ -47,8 +46,8 @@ Las instalaciones son diferentes entre Windows Pro Edition y Windows Home Editio
     <p align="center">
      <img src="./images/info_sym.jpg" />
     </p>
-    
-###  2.2. <a name='VerificarVirtualizacionWindows'></a>Verificar el estado de la virtualización en Windowsows 
+
+###  2.2. <a name='VerificarVirtualizacionWindows'></a>Verificar el estado de la virtualización en Windows
 Ahora debemos verificar información respecto a la virtualización, especificamente debes ver si nuestro sistema operativo tiene habilitada la virtualización. Para comprobar esto, sigue los siguientes pasos. 
 
 1. Ejecutar **win + R**
@@ -70,16 +69,88 @@ Ahora debemos verificar información respecto a la virtualización, especificame
 
 ###  2.2. <a name='VerificarMetodo'></a>Verificar por cual método instalar Docker Desktop
 
-Ahora ya conocemos la información de nuestro sistema operativo, esto nos dará la puta para poder evaluar si cumplimos con lo necesario para instalar Docker Desktop. Las condiciones que debemos tener son las que se presentan en la siguiente tabla. 
+Ahora ya conocemos la información de nuestro sistema operativo, esto nos dará la pauta para poder evaluar si cumplimos con lo necesario para instalar Docker Desktop, así mismo para definir que método utilizar. Las condiciones que debemos tener son las que se presentan en la siguiente tabla. 
+
+| Sistema Operativo     | Arquitectura | Build        | Método                     | Apto |
+| --------------------- | ------------ | ------------ | -------------------------- | ---- |
+| Windows 10 Home       | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Pro        | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Education  | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Enterprise | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Home       | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
+| Windows 10 Pro        | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
+| Windows 10 Education  | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
+| Windows 10 Enterprise | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
+| Windows 11 Home       | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 11 Pro        | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 11 Education  | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 11 Enterprise | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 11 Home       | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
+| Windows 11 Pro        | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
+| Windows 11 Education  | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
+| Windows 11 Enterprise | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
+| Windows 8             | 64 bits      | Cualquiera   | Docker  ToolBox            | ✅    |
+| Windows 8.1           | 64 bits      | Cualquiera   | Docker  ToolBox            | ✅    |
+| Windows 7             | 64 bits      | Cualquiera   | Docker  ToolBox            | ✅    |
+
+De acuerdo con la documentación, el requisito fundamnetal es que la arquitectura de la computadora sea de 64 bits, por lo que se desonoce si funcione en una arquitectura de 32 bits, lo más probable es que no.
+**Nota:** Actualizaré el repositorio si tuviera información de versiones en las que si se les puede instalar.
 
 ##  3. <a name='Instalarenversionesantiguas78y10home'></a>Instalar en versiones antiguas (7, 8 y 10 home)
 A continuación se describen los pasos a realizar para la instalación de Docker Desktop en versines antiguas de Windows. 
+Así cómo lo menciona la documentación oficial de Docker. este método es poco garantizado, debido a que el soporte para estas versiones del sistema operativo quedó descontinuado desde el 2019, por lo que programa a instalar es con la última versión de dicho año.
+
+[Documentación ofical de Docker](https://docs.docker.com/toolbox/)
+
 ###  3.1. <a name='DescargarelinstaladorDockerToolBox'></a>Descargar el instalador Docker ToolBox
+Los primero es descargar el siguiente instalador. Para garantizar que es de confianza, se descarga del reposiotario oficial.  
+
+
+<p align="center">
+ <a href="https://github.com/docker-archive/toolbox/releases/tag/v19.03.1">Docker Toolbox Código (GitHub).
+ </a>
+</p>
+
+<p align="center">
+ <a href="https://github.com/docker-archive/toolbox/releases/download/v19.03.1/DockerToolbox-19.03.1.exe">Docker Toolbox Instalador.
+ </a>
+</p>
+
+¿Qué contiene este programa?
+* Docker
+  
+  Los binarios de Docker están disponibles para crear y ejecutar contenedores en su computadora. Al instalar Docker, obtiene una CLI de Docker para comunicarse con un servidor Docker. De esta manera, puede lanzar instrucciones y se ejecutarán en sus contenedores.
+* Docker-Machine
+  
+  Una herramienta que maneja el aprovisionamiento en sus contenedores (instalación de paquetes, eliminación de paquetes, ejecución, etc.).
+
+* Docker-Compose
+  
+  Una herramienta para entornos que contienen múltiples contenedores con diferentes entornos. De esta forma, puede iniciar varios contenedores juntos o detenerlos juntos.
+  
+* Kitermatic
+  
+  Una dulce interfaz gráfica para que controle sus contenedores en Windows y Mac.
+
+* Boot2Docker ISO
+
+  Una pequeña distribución de Linux para ejecutar Docker en Windows.
+
+* VirtualBox
+
+  Hipervisor de código abierto para Windows y se utiliza para emular sistemas operativos en su sistema Windows.
+
 
 ###  3.2. <a name='Ejecutarelinstalador'></a>Ejecutar el instalador
+Una vez descargado, lo que se procede a realizar es ejecutar el intalador.
+
+1.- 
 
 ###  3.3. <a name='EjecutarDockerQuickstart'></a>Ejecutar Docker Quickstart
+Ahora que Docker está instalado, procedemos a ejecutar el proceso de Docker Quickstart.
+1. Double-click on the icon to start Docker Quickstart.
 
+2. 
 
 ##  4. <a name='Instalarenversionesantiguas78y10home-1'></a>Instalar en versiones antiguas (7, 8 y 10 home)
 A continuación se describen los pasos a realizar para la instalación de Docker Desktop en versines antiguas de Windows. 
@@ -90,4 +161,3 @@ A continuación se describen los pasos a realizar para la instalación de Docker
 ###  4.3. <a name='InstalarDockerDesktopforWindows'></a>Instalar Docker Desktop for Windows
 
 ###  4.4. <a name='ConfigurarDockerDesktop'></a>Configurar Docker Desktop
-
