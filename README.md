@@ -164,7 +164,7 @@ A continuación se presenta el manual donde se detallan los pasos a seguir para 
  </a>
 </p>
 
-###  4.2. <a name='InstalacionHyper-V'></a>Crear una cuenta en Docker Hub
+###  4.2. <a name='InstalacionHyper-V'></a>Instalación Hyper-V
 A continuación se presenta el manual donde se detallan los pasos a seguir para tener el ambiente de Hyper-V listo para la instalación de Docker Desktop.
 
 <p align="center">
