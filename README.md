@@ -28,7 +28,7 @@ Manual de instalación de Docker Desktop para Windows.
 ##  2. <a name='Prerequisitos'></a>Prerequisitos
 Primeramente debemos tener nociones sobre nuestro sistema operativo, la versión y el build que posee, así cómo conocer si tiene habilitada la opción de virtualización.
 
-###  2.1. <a name='VerificarversindeWindowsows'></a>Verificar versión de Windowsows
+###  2.1. <a name='VerificarVersionWindows'></a>Verificar versión de Windows
 Las instalaciones son diferentes entre Windows Pro Edition y Windows Home Edition, ya que Windows Home no incluye la función Hyper-V (necesaria para ejecutar "Docker for Windows").
 
 1. Ejecutar **win + R**
