@@ -22,7 +22,7 @@ Manual de instalación de Docker Desktop para Windows.
     * 3.1 [Pasos para instalación con WSL-2](#InstalacionWSL)
     * 3.2 [Pasos para instalación con Hyper-V](#InstalacionHyper-V)
 	* 3.3 [Crear una cuenta en Docker Hub](#DockerHub)
-    * 3.4 [Instalar Docker Desktop for Windows](#EjecutarInstaladorDockerWindows)
+    * 3.4 [Instalar Docker Desktop for Windows](#DescargarEInstalarDockerForWindows)
     * 3.5 [Configurar Docker Desktop](#ConfigDockerDesktop)
  
 ##  2. <a name='Prerequisitos'></a>Prerequisitos
@@ -173,8 +173,38 @@ A continuación se presenta el manual donde se detallan los pasos a seguir para 
 </p>
 
 ###  4.3. <a name='DockerHub'></a>Crear una cuenta en Docker Hub
+A continuación se presentarán los pasos a seguir para poder crear una cuenta de Docker Hub, esto con la finalidad de poder aprovechar las ventajas que nos da Docker Desktop para los usuarios que no son anonimos (Con ID de Docker Hub). 
 
 
-###  4.4. <a name='EjecutarInstaladorDockerWindows'></a>Instalar Docker Desktop for Windows
+Alguna de las ventajas son: 
+* Obtener el doble de pulls (200) cada 6 horas, en comparación de un usuario anonimo. 
+* Poder implementar una gestión de acceso. 
+* Acceso a solo contenido de confianza. 
+* Mayor seguridad en general. 
+
+1. Acceder al portal de [Docker Hub](https://hub.docker.com/). Y dirigirse a la opción de **sign up**.
+   <p align="center">
+    <img src="./images/dockerhub-signup.jpg" />
+   </p>
+2. Proceder a rellenar los campos que solicita, para crearse una cuenta. Luego acceder al correo que registremos y activar la cuenta. 
+   <p align="center">
+    <img src="./images/dockerhub-signup2.jpg" />
+   </p>
+3. Luego acceder al login para loguearse. 
+   <p align="center">
+    <img src="./images/dockerhub-login.jpg" />
+   </p>
+4. Colocar nuestro usuario o nuestro emial y nuestra respectiva contraseña para acceder. 
+   <p align="center">
+    <img src="./images/dockerhub-login2.jpg" />
+   </p>
+5. Al acceder, podemos verificar que ya tenemos nuestra cuenta de Docker Hub, ahora este usuario lo vamos a utilizar para acceder a Docker Desktop. 
+   <p align="center">
+    <img src="./images/dockerhub-login3.jpg" />
+   </p>
+
+###  4.4. <a name='DescargarEInstalarDockerForWindows'></a>Descargar e Instalar Docker Desktop for Windows
+
+
 
 ###  4.4. <a name='ConfigurarDockerDesktop'></a>Configurar Docker Desktop
