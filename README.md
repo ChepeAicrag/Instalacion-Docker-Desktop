@@ -205,6 +205,11 @@ Alguna de las ventajas son:
 
 ###  4.4. <a name='DescargarEInstalarDockerForWindows'></a>Descargar e Instalar Docker Desktop for Windows
 
-
-
+Ahora, vamos a proceder a descargar el instalador *Desktop for Windows* para proceder con la instalación cómo tal del programa Docker Desktop.
+1. Descargar el program del enlace siguiente. 
+   <p align="center">
+    <a href="https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"> Instalador Desktop for Windows </a>
+   </p>
+2. Ejecutar el instalador descargado.
+3. 
 ###  4.4. <a name='ConfigurarDockerDesktop'></a>Configurar Docker Desktop
