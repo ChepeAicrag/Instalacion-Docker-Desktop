@@ -9,7 +9,7 @@ Manual de instalación de Docker Desktop para Windows.
 
 ##  1. <a name='TabladeContenido'></a>Tabla de Contenido 
 * 1. [Prerequisitos](#Prerequisitos)
-	* 1.1. [Verificar versión de Windowsows](#VerificarVersionWindows)
+	* 1.1. [Verificar versión de Windows](#VerificarVersionWindows)
 	* 1.2. [Verificar el estado de la virsualización en Windows](#VerificarVirtualizacionWindows)
 	* 1.3. [Verificar por cual método instalar Docker Desktop](#VerificarMetodo)
 
