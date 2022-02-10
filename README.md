@@ -155,11 +155,25 @@ Ahora que Docker está instalado, procedemos a ejecutar el proceso de Docker Qui
 
 ##  4. <a name='VersionReciente'></a>Instalar en versiones recientes
 A continuación se describen los pasos a realizar para la instalación de Docker Desktop en versines recientes de Windows. 
-###  4.1. <a name='InstalacionWSL'></a>Instalación WSL
+Hay dos formas de realizar la instalación, la primera forma es con WSL-2 y la otra con Hyper-V. Aunque recomendaría realizar ambos procesos para aprovecahr mejor el rendimiento de Docker Desktop. 
+###  4.1. <a name='InstalacionWSL'></a>Instalación WSL-2
+A continuación se presenta el manual donde se detallan los pasos a seguir para tener el ambiente de WSL-2 listo para la instalación de Docker Desktop.
+
+<p align="center">
+ <a href="./wsl2.md">Munual de WSL-2.
+ </a>
+</p>
 
 ###  4.2. <a name='InstalacionHyper-V'></a>Crear una cuenta en Docker Hub
+A continuación se presenta el manual donde se detallan los pasos a seguir para tener el ambiente de Hyper-V listo para la instalación de Docker Desktop.
+
+<p align="center">
+ <a href="./hyper-v.md">Munual de Hyper-V.
+ </a>
+</p>
 
 ###  4.3. <a name='DockerHub'></a>Crear una cuenta en Docker Hub
+
 
 ###  4.4. <a name='EjecutarInstaladorDockerWindows'></a>Instalar Docker Desktop for Windows
 
