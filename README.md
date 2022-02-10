@@ -67,6 +67,7 @@ Ahora debemos verificar información respecto a la virtualización, especificame
    <p align="center">
     <img src="./images/option_virtualization.jpg" />
    </p>
+**NOTA:** Si no tienes habilitada la virtualización, te sugiero buscar un tutorial para activarlo, debido a que los métodos para activarla varia dependiendo del equipo, es decir, dependiendo del modelo y marca de la computadora. 
 
 ###  2.2. <a name='VerificarMetodo'></a>Verificar por cual método instalar Docker Desktop
 
