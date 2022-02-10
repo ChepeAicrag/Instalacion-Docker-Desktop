@@ -10,7 +10,7 @@ Manual de instalación de Docker Desktop para Windows.
 ##  1. <a name='TabladeContenido'></a>Tabla de Contenido 
 * 1. [Prerequisitos](#Prerequisitos)
 	* 1.1. [Verificar versión de Windowsows](#VerificarVersionWindows)
-	* 1.2. [Verificar el estado de la virsualización en Windowsows](#VerificarVirtualizacionWindows)
+	* 1.2. [Verificar el estado de la virsualización en Windows](#VerificarVirtualizacionWindows)
 	* 1.3. [Verificar por cual método instalar Docker Desktop](#VerificarMetodo)
 
 * 2. [Instalar en versiones antiguas (7, 8 y 10 home)](#VersionAntigua)
@@ -18,11 +18,12 @@ Manual de instalación de Docker Desktop para Windows.
 	* 2.2. [Ejecutar el instalador](#EjecutarInstalador)
     * 2.3. [Ejecutar Docekr Quickstart](#VerificarversindeWindowsows)
 	
-* 3. [Instalar en versiones más recientes](#VersionNueva)
-	* 3.1. [Revisar la configuración de la virtualización](#ConfigVirtualizacion)
-	* 3.2. [Crear una cuenta en Docker Hub](#DockerHub)
-    * 3.3. [Instalar Docker Desktop for Windows](#EjecutarInstaladorDockerWindows)
-    * 3.4. [Configurar Docker Desktop](#ConfigDockerDesktop)
+* 3. [Instalar en versiones más recientes](#VersionReciente)
+    * 3.1 [Pasos para instalación con WSL-2](#InstalacionWSL)
+    * 3.2 [Pasos para instalación con Hyper-V](#InstalacionHyper-V)
+	* 3.3 [Crear una cuenta en Docker Hub](#DockerHub)
+    * 3.4 [Instalar Docker Desktop for Windows](#EjecutarInstaladorDockerWindows)
+    * 3.5 [Configurar Docker Desktop](#ConfigDockerDesktop)
  
 ##  2. <a name='Prerequisitos'></a>Prerequisitos
 Primeramente debemos tener nociones sobre nuestro sistema operativo, la versión y el build que posee, así cómo conocer si tiene habilitada la opción de virtualización.
@@ -152,12 +153,14 @@ Ahora que Docker está instalado, procedemos a ejecutar el proceso de Docker Qui
 
 2. 
 
-##  4. <a name='Instalarenversionesantiguas78y10home-1'></a>Instalar en versiones antiguas (7, 8 y 10 home)
-A continuación se describen los pasos a realizar para la instalación de Docker Desktop en versines antiguas de Windows. 
-###  4.1. <a name='DescargarelinstaladorDockerToolBox-1'></a>Descargar el instalador Docker ToolBox
+##  4. <a name='VersionReciente'></a>Instalar en versiones recientes
+A continuación se describen los pasos a realizar para la instalación de Docker Desktop en versines recientes de Windows. 
+###  4.1. <a name='InstalacionWSL'></a>Instalación WSL
 
-###  4.2. <a name='CrearunacuentaenDockerHub'></a>Crear una cuenta en Docker Hub
+###  4.2. <a name='InstalacionHyper-V'></a>Crear una cuenta en Docker Hub
 
-###  4.3. <a name='InstalarDockerDesktopforWindows'></a>Instalar Docker Desktop for Windows
+###  4.3. <a name='DockerHub'></a>Crear una cuenta en Docker Hub
+
+###  4.4. <a name='EjecutarInstaladorDockerWindows'></a>Instalar Docker Desktop for Windows
 
 ###  4.4. <a name='ConfigurarDockerDesktop'></a>Configurar Docker Desktop
