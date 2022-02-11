@@ -6,7 +6,14 @@ Es importante aclarar que para poder instalar WSL-2 debemos cumplir con los prer
     <img src="./images/shell.png" />
    </p>
 3. Ahora vamos a instalar WSL de forma general. Para ello escribimos el comando **wsl --install**.
-   El comando anterior va a descargar los paquetes necesarios para instalar WSL en nuestra computadora. Además de acuerdo con la documentación este comando habilitará los    componentes opcionales requeridos, descargará el kernel de Linux más reciente, establecerá WSL 2 como predeterminado e instalará una distribución de Linux para usted (Ubuntu de manera predeterminada, vea a continuación para cambiar esto).
+
+El comando anterior va a descargar los paquetes necesarios para instalar WSL en nuestra computadora. Además de acuerdo con la documentación este comando habilitará los    componentes opcionales requeridos, descargará el kernel de Linux más reciente, establecerá WSL 2 como predeterminado e instalará una distribución de Linux para usted (Ubuntu de manera predeterminada, vea a continuación para cambiar esto).
    <p align="center">
     <img src="./images/wsl-install.jpg" />
+   </p> 
+
+4. Reiniciamos la computadora. 
+5. Y al volver a iniciar sesión, vamos a visualizar una ventana cómo la que se muestra en la imagen. 
+   <p align="center">
+    <img src="./images/ubuntu.png" />
    </p> 
