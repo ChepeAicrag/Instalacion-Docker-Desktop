@@ -15,6 +15,21 @@ Los siguientes elementos deberán estar habilitados en el BIOS del sistema:
 * Tecnología de virtualización: puede tener una etiqueta diferente según el fabricante de la placa base.
 * Prevención de ejecución de datos forzada por hardware.
 
+## Verificar compatibilidad de hardware
+Después de verificar el sistema operativo y los requisitos de hardware anteriores, verifique la compatibilidad del hardware en Windows.
+1. Abra la terminal *CMD* o *PowerShell*.
+2. Ejecuta el siguiente comando. 
+   ```bash
+   systeminfo
+   ```
+3. La salida del comando anterior mostrará información respecto a
+   
+   Luego verifique la sección Re. Si todos los requisitos de Hyper-V enumerados tienen un valor de Sí, su sistema puede ejecutar el rol de Hyper-V. Si algún elemento devuelve No, verifique los requisitos enumerados en este documento y haga los ajustes donde sea posible.
+
+   <p align="center">
+    <img src="./images/systeminfo.png" />
+   </p>
+   
 ## Procedimiento
 
 1. Vamos a buscar la *Power Shell* y la ejecutamos cómo administrador. 
