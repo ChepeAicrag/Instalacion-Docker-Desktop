@@ -1,7 +1,14 @@
 # INSTALACIÓN Hyper-V
 ## Requerimientos
-* Es importante aclarar que para poder instalar WSL-2 debemos cumplir con los prerequisitos explicados en el tutorial princiapl.
+* Es importante aclarar que para poder instalar WSL-2 debemos cumplir con los prerequisitos explicados en el tutorial principal.
 * Solo se puede habilitar en Windows 10 Enterprise, Pro, o Education.
+
+**Requerimientos de Hardware:**
+
+Aunque este documento no proporciona una lista completa del hardware compatible con Hyper-V, los siguientes elementos son necesarios:
+* Procesador de 64 bits con traducción de direcciones de segundo nivel (SLAT).
+* Soporte de CPU para VM Monitor Mode Extension (VT-x en CPU Intel).
+* Mínimo de 4 GB de memoria. Dado que las máquinas virtuales comparten memoria con el host de Hyper-V, deberá proporcionar suficiente memoria para manejar la carga de trabajo virtual esperada.
 
 ## Procedimiento
 
