@@ -156,11 +156,35 @@ Una vez descargado, lo que se procede a realizar es ejecutar el intalador.
     <img src="./images/toolbox-install-step2.jpg" />
    </p>
 
-3.- Procedemos a seleccionar las herramientas que deseemos, les recomiendo dejar todas las que vienen seleccionadas por default. Entonces simplemente den clic en el botón de *next*.
+3.- Procedemos a seleccionar las herramientas que deseemos, les recomiendo dejar todas las que vienen seleccionadas por default. Entonces simplemente damos clic en el botón de *next*.
    <p align="center">
     <img src="./images/toolbox-install-step3.jpg" />
    </p>
 
+4.- Ahora seleccionamos los accesos directos que deseamos y la opción de agregar el path, recomiendo dejar las opciones seleccionadas por default. Luego damos clic en el botón de *next*.
+   <p align="center">
+    <img src="./images/toolbox-install-step4.jpg" />
+   </p>
+
+5.- Revisamos que vamos a instalar lo correcto, desde la ubicación que deseamos, los accesos directos y los componentes. Una vez que todo está correcto, procedemos a dar clic en *instalar* y se empezará a instalar el programa.
+   <p align="center">
+    <img src="./images/toolbox-install-step5.jpg" />
+   </p>
+
+6.- El tiempo de instalación dependerá de su computadora pero suele durar entre 10 a 20 minutos.
+   <p align="center">
+    <img src="./images/toolbox-install-step6.jpg" />
+   </p>
+
+7.- Si al momento de instalar les sale que deben instalar un software, simplemente dan en la opción de *Instalar*.
+   <p align="center">
+    <img src="./images/toolbox-install-step7.jpg" />
+   </p>
+
+8.- Una vez terminada la instalación, en la última ventana vamos a dar clic en *Finish*
+   <p align="center">
+    <img src="./images/toolbox-install-step8.jpg" />
+   </p>
 
 ###  3.3. <a name='EjecutarDockerQuickstart'></a>Ejecutar Docker Quickstart
 Ahora que Docker está instalado, procedemos a ejecutar el proceso de Docker Quickstart.
