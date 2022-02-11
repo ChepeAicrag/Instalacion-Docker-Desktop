@@ -10,6 +10,11 @@ Aunque este documento no proporciona una lista completa del hardware compatible 
 * Soporte de CPU para VM Monitor Mode Extension (VT-x en CPU Intel).
 * Mínimo de 4 GB de memoria. Dado que las máquinas virtuales comparten memoria con el host de Hyper-V, deberá proporcionar suficiente memoria para manejar la carga de trabajo virtual esperada.
 
+Los siguientes elementos deberán estar habilitados en el BIOS del sistema:
+
+* Tecnología de virtualización: puede tener una etiqueta diferente según el fabricante de la placa base.
+* Prevención de ejecución de datos forzada por hardware.
+
 ## Procedimiento
 
 1. Vamos a buscar la *Power Shell* y la ejecutamos cómo administrador. 
