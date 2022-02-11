@@ -278,4 +278,19 @@ Ahora, vamos a proceder a descargar el instalador *Desktop for Windows* para pro
    <p align="center">
     <img src="./images/dockerforwindows6.jpg" />
    </p>
+Y listo, tendríamos instalado Docker Desktop para poder utilizarlo. 
 ###  4.4. <a name='ConfigurarDockerDesktop'></a>Configurar Docker Desktop
+1. Al iniciar por primer vez el programa, vamos a ver una ventana cómo la siguiente.
+   Podemos seguir el tutorial que nos muestra o podemos saltarnos esta parte.
+   <p align="center">
+    <img src="./images/dockerforwindows-init.jpg" />
+   </p>
+2. Al terminar de completar el tutorial o de saltarse el paso, vamos a ver una ventana cómo la siguiente en la que nos muestra cómo podemos ejecutar un comando de Docker.
+   <p align="center">
+    <img src="./images/dockerforwindows-init2.jpg" />
+   </p>
+3. En la parte superior, aparece la opción para poder iniciar sesión con nuestro usuario de Doker Hub. En mi caso ya estoy logueado, pero es fácil este procedimiento, además que obtenemos más ventajas al realizarlo.
+   <p align="center">
+    <img src="./images/dockerforwindows-init3.jpg" />
+   </p>
+Listo, ya tenemos Docker Desktop instalado y preparado para poder empezar a utiliarlo, para gestionar nuestras imagenes, volumenes y contenedores de Docker.
