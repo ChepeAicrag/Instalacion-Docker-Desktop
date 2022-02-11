@@ -193,9 +193,9 @@ Una vez descargado, lo que se procede a realizar es ejecutar el intalador.
 
 ###  3.3. <a name='EjecutarDockerQuickstart'></a>Ejecutar Docker Quickstart
 Ahora que Docker está instalado, procedemos a ejecutar el proceso de Docker Quickstart.
-1. Double-click on the icon to start Docker Quickstart.
+1. Ejecutamos el acceso directo denomiado *Docker Quickstart*. 
+2. Se nos abrirá una ventana con la ejecución de un inicio rápido en Docker.
 
-2. 
 
 ##  4. <a name='VersionReciente'></a>Instalar en versiones recientes
 A continuación se describen los pasos a realizar para la instalación de Docker Desktop en versines recientes de Windows. 
