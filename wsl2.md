@@ -2,6 +2,11 @@
 Es importante aclarar que para poder instalar WSL-2 debemos cumplir con los prerequisitos explicados en el [tutorial princiapl](https://github.com/ChepeAicrag/Instalacion-Docker-Desktop#Prerequisitos).
   
 1. Vamos a buscar la *Power Shell* y la ejecutamos cómo administrador. 
+
+  ```bash
+  wsl --install
+  ```
+  
    <p align="center">
     <img src="./images/shell.png" />
    </p>
@@ -19,7 +24,9 @@ El comando anterior va a descargar los paquetes necesarios para instalar WSL en 
    </p> 
 6. Ejecutamos nuevamente *Power Shell* como administrador.
 7. Ahora ejecutamos el comando **wsl --set-default-version 2**. Y con este comando vamos a poder utilizar WSL con la versión 2, es decir, a WSL-2.
-
+  ```bash
+  wsl --set-default-version 2
+  ```
 Y listo, con esos pasos tenemos instalado WSL-2. 
 
 
