@@ -250,10 +250,32 @@ Alguna de las ventajas son:
 ###  4.4. <a name='DescargarEInstalarDockerForWindows'></a>Descargar e Instalar Docker Desktop for Windows
 
 Ahora, vamos a proceder a descargar el instalador *Desktop for Windows* para proceder con la instalación cómo tal del programa Docker Desktop.
-1. Descargar el program del enlace siguiente. 
+1. Descargar el instalador del siguiente enlace. 
    <p align="center">
     <a href="https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"> Instalador Desktop for Windows </a>
    </p>
-2. Ejecutar el instalador descargado.
-3. 
+2. Ejecutar el instalador descargado. Entonces se nos abrirá el instalador y automaticamente empezará a descargar los archivos necesarios para la instalación.
+   <p align="center">
+    <img src="./images/dockerforwindows.jpg" />
+   </p>
+3. Luego de que termine de descargar algunos archivos, nos saldrá la siguiente ventana y en esta debemos seleccionar las dos opciones. Donde la primera son componentes para WSL-2 y la segunda es para agregar una acceso directo. Luego debemos dar clic en el botón *Ok*.
+   <p align="center">
+    <img src="./images/dockerforwindows2.jpg" />
+   </p>
+4. Se empezará a desempaquetar los diferentes archivos descargados, este proceso varia dependiende los recursos de tu computadora pero entre 5 a 10 minutos.
+   <p align="center">
+    <img src="./images/dockerforwindows3.jpg" />
+   </p>
+5. Una vez que se termine el proceso anterior. Se nos mostrará una ventana cómo la siguiente, donde debemos dar clic en el botón *Close*. También les puede salir un botón con la opción *Close and logout*, igual le da clic, y lo que hará es cerrarle la sesión de su usuario de Windows.
+   <p align="center">
+    <img src="./images/dockerforwindows4.jpg" />
+   </p>
+6. Si nos dirigimos a nuestro escritorio, vamos a ver un icono cómo el siguiente, este es un acceso directo para ejecutar **Docker Desktop**. Le damos clic en él para proceder a abrir el programa.
+   <p align="center">
+    <img src="./images/dockerforwindows5.jpg" />
+   </p>
+7. Al abrir Docker Desktop por pirmera vez, nos mostrará una ventana con la licencia del programa, lo que debemos hacer leer toda la licencia y luego dar clic en el botón *Accept*.
+   <p align="center">
+    <img src="./images/dockerforwindows6.jpg" />
+   </p>
 ###  4.4. <a name='ConfigurarDockerDesktop'></a>Configurar Docker Desktop
