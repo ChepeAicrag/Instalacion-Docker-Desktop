@@ -11,8 +11,8 @@ Manual de instalación de Docker Desktop para Windows.
 
 * 2. [Instalar en versiones antiguas (7, 8 y 10 home)](#VersionAntigua)
 	* 2.1. [Descargar el instalador Docker ToolBox](#DockerToolBox)
-	* 2.2. [Ejecutar el instalador](#EjecutarInstalador)
-    * 2.3. [Ejecutar Docekr Quickstart](#VerificarversindeWindowsows)
+	* 2.2. [Ejecutar el instalador](#EjecutarInstaladorToolBox)
+    * 2.3. [Ejecutar Docekr Quickstart](#EjecutarDockerQuickstart)
 	
 * 3. [Instalar en versiones más recientes](#VersionReciente)
     * 3.1 [Pasos para instalación con WSL-2](#InstalacionWSL)
@@ -96,13 +96,13 @@ Ahora ya conocemos la información de nuestro sistema operativo, esto nos dará 
 De acuerdo con la documentación, el requisito fundamnetal es que la arquitectura de la computadora sea de 64 bits, por lo que se desonoce si funcione en una arquitectura de 32 bits, lo más probable es que no.
 **Nota:** Actualizaré el repositorio si tuviera información de versiones en las que si se les puede instalar.
 
-##  3. <a name='Instalarenversionesantiguas78y10home'></a>Instalar en versiones antiguas (7, 8 y 10 home)
+##  3. <a name='VersionAntigua'></a>Instalar en versiones antiguas (7, 8 y 10 home)
 A continuación se describen los pasos a realizar para la instalación de Docker Desktop en versines antiguas de Windows. 
 Así cómo lo menciona la documentación oficial de Docker. este método es poco garantizado, debido a que el soporte para estas versiones del sistema operativo quedó descontinuado desde el 2019, por lo que programa a instalar es con la última versión de dicho año.
 
 [Documentación ofical de Docker](https://docs.docker.com/toolbox/)
 
-###  3.1. <a name='DescargarelinstaladorDockerToolBox'></a>Descargar el instalador Docker ToolBox
+###  3.1. <a name='DockerToolBox'></a>Descargar el instalador Docker ToolBox
 Los primero es descargar el siguiente instalador. Para garantizar que es de confianza, se descarga del reposiotario oficial.  
 
 
@@ -141,7 +141,7 @@ Los primero es descargar el siguiente instalador. Para garantizar que es de conf
   Hipervisor de código abierto para Windows y se utiliza para emular sistemas operativos en su sistema Windows.
 
 
-###  3.2. <a name='Ejecutarelinstalador'></a>Ejecutar el instalador
+###  3.2. <a name='EjecutarInstaladorToolBox'></a>Ejecutar el instalador
 Una vez descargado, lo que se procede a realizar es ejecutar el intalador.
 
 1.- Ejecutamos el instalador. Y se nos abrirá una ventana cómo la siguiente. Solo debemos dar clic en el botón de *next*. 
