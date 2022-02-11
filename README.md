@@ -299,6 +299,7 @@ Listo, ya tenemos Docker Desktop instalado y preparado para poder empezar a util
 
 ##  5. <a name='Referencias'></a>Referencias
 Esta pequeña guía fue elaborada en base a la documentación oficial de Docker y Microsoft. 
-[Instalación de Docker en Windows](https://docs.docker.com/desktop/windows/install/).
-[Problemas al instalar Docker](https://docs.docker.com/desktop/windows/troubleshoot/).
-[Manual de usuario de Docker](https://docs.docker.com/desktop/windows/).
+
+* [Instalación de Docker en Windows](https://docs.docker.com/desktop/windows/install/).
+* [Problemas al instalar Docker](https://docs.docker.com/desktop/windows/troubleshoot/).
+* [Manual de usuario de Docker](https://docs.docker.com/desktop/windows/).
