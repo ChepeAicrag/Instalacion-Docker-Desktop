@@ -24,7 +24,7 @@ Manual de instalación de Docker Desktop para Windows.
 	* 3.3 [Crear una cuenta en Docker Hub](#DockerHub)
     * 3.4 [Instalar Docker Desktop for Windows](#DescargarEInstalarDockerForWindows)
     * 3.5 [Configurar Docker Desktop](#ConfigDockerDesktop)
-* 1. [Referencias](#Referencias)
+* 4. [Referencias](#Referencias)
 
 
 ##  2. <a name='Prerequisitos'></a>Prerequisitos
