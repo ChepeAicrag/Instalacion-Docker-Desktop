@@ -1,6 +1,11 @@
-# INSTALACIÓN WSL - 2 
+# INSTALACIÓN WSL - 2
+
+## Requerimientos
+
 Es importante aclarar que para poder instalar WSL-2 debemos cumplir con los prerequisitos explicados en el [tutorial princiapl](https://github.com/ChepeAicrag/Instalacion-Docker-Desktop#Prerequisitos).
-  
+
+## Procedimiento
+
 1. Vamos a buscar la *Power Shell* y la ejecutamos cómo administrador. 
    <p align="center">
     <img src="./images/shell.png" />
