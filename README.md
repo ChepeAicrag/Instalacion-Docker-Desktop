@@ -181,9 +181,14 @@ Una vez descargado, lo que se procede a realizar es ejecutar el intalador.
     <img src="./images/toolbox-install-step7.jpg" />
    </p>
 
-8.- Una vez terminada la instalación, en la última ventana vamos a dar clic en *Finish*
+8.- Una vez terminada la instalación, en la última ventana vamos a dar clic en *Finish*.
    <p align="center">
     <img src="./images/toolbox-install-step8.jpg" />
+   </p>
+
+8.- Se nos abrirá el explorar de archivos, y ahí vamos a observar nuestros accesos directos. Con esto logramos garatnizar que hemos instalador correctamente Docker.
+   <p align="center">
+    <img src="./images/toolbox-install-step9.jpg" />
    </p>
 
 ###  3.3. <a name='EjecutarDockerQuickstart'></a>Ejecutar Docker Quickstart
