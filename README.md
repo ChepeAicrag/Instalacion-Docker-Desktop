@@ -24,7 +24,9 @@ Manual de instalación de Docker Desktop para Windows.
 	* 3.3 [Crear una cuenta en Docker Hub](#DockerHub)
     * 3.4 [Instalar Docker Desktop for Windows](#DescargarEInstalarDockerForWindows)
     * 3.5 [Configurar Docker Desktop](#ConfigDockerDesktop)
- 
+* 1. [Referencias](#Referencias)
+
+
 ##  2. <a name='Prerequisitos'></a>Prerequisitos
 Primeramente debemos tener nociones sobre nuestro sistema operativo, la versión y el build que posee, así cómo conocer si tiene habilitada la opción de virtualización.
 
@@ -294,3 +296,9 @@ Y listo, tendríamos instalado Docker Desktop para poder utilizarlo.
     <img src="./images/dockerforwindows-init3.jpg" />
    </p>
 Listo, ya tenemos Docker Desktop instalado y preparado para poder empezar a utiliarlo, para gestionar nuestras imagenes, volumenes y contenedores de Docker.
+
+##  5. <a name='Referencias'></a>Referencias
+Esta pequeña guía fue elaborada en base a la documentación oficial de Docker y Microsoft. 
+[Instalación de Docker en Windows](https://docs.docker.com/desktop/windows/install/).
+[Problemas al instalar Docker](https://docs.docker.com/desktop/windows/troubleshoot/).
+[Manual de usuario de Docker](https://docs.docker.com/desktop/windows/).
