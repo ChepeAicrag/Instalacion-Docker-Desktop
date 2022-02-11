@@ -146,7 +146,21 @@ Los primero es descargar el siguiente instalador. Para garantizar que es de conf
 ###  3.2. <a name='Ejecutarelinstalador'></a>Ejecutar el instalador
 Una vez descargado, lo que se procede a realizar es ejecutar el intalador.
 
-1.- 
+1.- Ejecutamos el instalador. Y se nos abrirá una ventana cómo la siguiente. Solo debemos dar clic en el botón de *next*. 
+   <p align="center">
+    <img src="./images/toolbox-install-step1.jpg" />
+   </p>
+
+2.- Ahora vamos a seleccionar la ubicación en donde se instalará el programa. Podemos dejar la que nos da por default o escribir una ruta que deseemos. 
+   <p align="center">
+    <img src="./images/toolbox-install-step2.jpg" />
+   </p>
+
+3.- Procedemos a seleccionar las herramientas que deseemos, les recomiendo dejar todas las que vienen seleccionadas por default. Entonces simplemente den clic en el botón de *next*.
+   <p align="center">
+    <img src="./images/toolbox-install-step3.jpg" />
+   </p>
+
 
 ###  3.3. <a name='EjecutarDockerQuickstart'></a>Ejecutar Docker Quickstart
 Ahora que Docker está instalado, procedemos a ejecutar el proceso de Docker Quickstart.
