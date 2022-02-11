@@ -34,5 +34,5 @@ El comando anterior va a descargar los paquetes necesarios para instalar WSL en 
   ```
 Y listo, con esos pasos tenemos instalado WSL-2. 
 
-
+## Referencias
 Para más información puedes visitar el manual oficial de Microsoft [aquí](https://docs.microsoft.com/en-us/windows/wsl/install). 
