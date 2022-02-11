@@ -24,3 +24,6 @@
     <img src="./images/hyperv.png" />
    </p> 
 8. Reiniciamos la computadora.
+
+## Referencias
+Para mayor información pueden visitar la documentación oficial de Microsoft [aquí](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v).
