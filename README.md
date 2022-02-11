@@ -1,10 +1,6 @@
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
+![image](https://user-images.githubusercontent.com/48169157/153631639-c7a28235-7ca5-4e83-ba88-3ab381c0e6f7.png)
 
-# Instalación de Docker Desktop en Windows
+# Instalación de Docker Desktop en Windows 🐋
 Manual de instalación de Docker Desktop para Windows.
 
 ##  1. <a name='TabladeContenido'></a>Tabla de Contenido 
