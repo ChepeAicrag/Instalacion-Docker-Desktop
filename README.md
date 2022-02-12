@@ -297,8 +297,22 @@ Y listo, tendríamos instalado Docker Desktop para poder utilizarlo.
 Listo, ya tenemos Docker Desktop instalado y preparado para poder empezar a utiliarlo, para gestionar nuestras imagenes, volumenes y contenedores de Docker.
 
 ##  5. <a name='Problemas'></a>Problemas al ejecutar Docker Desktop
+A continuación se presentan las soluciones a dos de los problemas tipicos que se pueden encontrar al ejecutar Docker Desktop. 
 
 ###  5.1 <a name='Daemon'></a>This error may indicate that the docker daemon is not running. The system cannot find the file specified.
+Este error se visualiza cuando intentamos ejecutar algún comando de Docker. Y en la siguiente imagen se puede apreciar. 
+   <p align="center">
+    <img src="./images/daemon.png" />
+   </p>
+La solución a este problema se da con los siguientes pasos: 
+
+1. Desinstala Docker Desktop.
+2. Reinicia la computadora.
+3. Ejecuta el instalador de Docker Desktop cómo administrador.
+4. Instala con los pasos de siempre.
+5. Reinicia la computadora. 
+
+Y listo, con eso se soluciona este error. Si por casualidad tu error persiste, puedes aplicar la misma solución del siguiente problema. 
 
 ###  5.2 <a name='Stopped'></a>Docker Desktop stopped
 
