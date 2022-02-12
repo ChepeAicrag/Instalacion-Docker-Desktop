@@ -15,6 +15,26 @@ Los siguientes elementos deberán estar habilitados en el BIOS del sistema:
 * Tecnología de virtualización: puede tener una etiqueta diferente según el fabricante de la placa base.
 * Prevención de ejecución de datos forzada por hardware.
 
+## Verificar compatibilidad de hardware
+Después de verificar el sistema operativo y los requisitos de hardware anteriores, verifique la compatibilidad del hardware en Windows.
+1. Abra la terminal *CMD* o *PowerShell*.
+2. Ejecuta el siguiente comando. 
+   ```bash
+   systeminfo
+   ```
+3. La salida del comando anterior mostrará información respecto a Hyper-V.
+   
+   Luego verifique la sección Requerimentos. Si todos los requisitos de Hyper-V enumerados tienen un valor de Sí, su sistema puede ejecutar el rol de Hyper-V. Si algún elemento devuelve No, verifique los requisitos enumerados en este documento y haga los ajustes donde sea posible.
+
+   <p align="center">
+    <img src="./images/systeminfo.png" />
+   </p>
+ 
+4. Si el comando anterior muestra un mensaje cómo el siguiente, entonces es porque ya tenemos habilitado Hyper-V y no es necesario realizar más procedimientos.
+   ```bash
+   Hyper-V Requirements: A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+   ```
+ 
 ## Procedimiento
 
 1. Vamos a buscar la *Power Shell* y la ejecutamos cómo administrador. 
@@ -22,8 +42,7 @@ Los siguientes elementos deberán estar habilitados en el BIOS del sistema:
     <img src="./images/shell.png" />
    </p>
    
-2. Ahora vamos a instalar WSL de forma general. Para ello escribimos el comando **wsl --install**.
-
+2. Ahora vamos a habilitar Hyper-V para ello introducimos el siguiente comando en la consola abierta.
   ```bash
   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
   ```
@@ -31,7 +50,7 @@ Los siguientes elementos deberán estar habilitados en el BIOS del sistema:
 4. Ahora, podemos comprobarlo si lo tenemos activado. Para ello vamos a hacer clic derecho en el botón de Windows y seleccionamos *Aplicaciones y características*.
 5. Seleccionamos *Programas y características* a la derecha debajo de la configuración relacionada.
 6. Seleccionamos *Activar o desactivar las funciones de Windows*.
-7. Seleccionamos *Hyper-V* y luego clic en Aceptar.
+7. Seleccionamos *Hyper-V* y luego clic en *Ok*.
    <p align="center">
     <img src="./images/hyperv.png" />
    </p> 
@@ -39,3 +58,5 @@ Los siguientes elementos deberán estar habilitados en el BIOS del sistema:
 
 ## Referencias
 Para mayor información pueden visitar la documentación oficial de Microsoft [aquí](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v).
+
+[Requerimientos de Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements).

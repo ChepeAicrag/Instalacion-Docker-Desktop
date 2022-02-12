@@ -1,30 +1,34 @@
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
+![image](https://user-images.githubusercontent.com/48169157/153631639-c7a28235-7ca5-4e83-ba88-3ab381c0e6f7.png)
 
-# Instalación de Docker Desktop en Windows
+# Instalación de Docker Desktop en Windows 🐋
 Manual de instalación de Docker Desktop para Windows.
 
 ##  1. <a name='TabladeContenido'></a>Tabla de Contenido 
-* 1. [Prerequisitos](#Prerequisitos)
+1. [Prerequisitos](#Prerequisitos)
 	* 1.1. [Verificar versión de Windows](#VerificarVersionWindows)
 	* 1.2. [Verificar el estado de la virsualización en Windows](#VerificarVirtualizacionWindows)
 	* 1.3. [Verificar por cual método instalar Docker Desktop](#VerificarMetodo)
 
-* 2. [Instalar en versiones antiguas (7, 8 y 10 home)](#VersionAntigua)
+2. [Instalar en versiones antiguas (7, 8 y 10 home)](#VersionAntigua)
 	* 2.1. [Descargar el instalador Docker ToolBox](#DockerToolBox)
-	* 2.2. [Ejecutar el instalador](#EjecutarInstalador)
-    * 2.3. [Ejecutar Docekr Quickstart](#VerificarversindeWindowsows)
+	* 2.2. [Ejecutar el instalador](#EjecutarInstaladorToolBox)
+	* 2.3. [Ejecutar Docekr Quickstart](#EjecutarDockerQuickstart)
 	
-* 3. [Instalar en versiones más recientes](#VersionReciente)
-    * 3.1 [Pasos para instalación con WSL-2](#InstalacionWSL)
-    * 3.2 [Pasos para instalación con Hyper-V](#InstalacionHyper-V)
+3. [Instalar en versiones más recientes](#VersionReciente)
+    	
+	* 3.1 [Pasos para instalación con WSL-2](#InstalacionWSL)
+   	* 3.2 [Pasos para instalación con Hyper-V](#InstalacionHyper-V)
 	* 3.3 [Crear una cuenta en Docker Hub](#DockerHub)
-    * 3.4 [Instalar Docker Desktop for Windows](#DescargarEInstalarDockerForWindows)
-    * 3.5 [Configurar Docker Desktop](#ConfigDockerDesktop)
- 
+	* 3.4 [Instalar Docker Desktop for Windows](#DescargarEInstalarDockerForWindows)
+	* 3.5 [Configurar Docker Desktop](#ConfigurarDockerDesktop)
+    	
+4. [Solucion a problemas](#Problemas)
+ 	* 4.1 [This error may indicate that the docker daemon is not running. The system cannot find the file specified.](#Daemon)
+ 	* 4.2 [Docker Desktop stopped](#Stopped)
+
+5. [Referencias](#Referencias)
+
+
 ##  2. <a name='Prerequisitos'></a>Prerequisitos
 Primeramente debemos tener nociones sobre nuestro sistema operativo, la versión y el build que posee, así cómo conocer si tiene habilitada la opción de virtualización.
 
@@ -75,10 +79,10 @@ Ahora ya conocemos la información de nuestro sistema operativo, esto nos dará 
 
 | Sistema Operativo     | Arquitectura | Build        | Método                     | Apto |
 | --------------------- | ------------ | ------------ | -------------------------- | ---- |
-| Windows 10 Home       | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
-| Windows 10 Pro        | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
-| Windows 10 Education  | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
-| Windows 10 Enterprise | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Home       | 64 bits      | 20H1 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Pro        | 64 bits      | 20H1 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Education  | 64 bits      | 1909 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Enterprise | 64 bits      | 1909 o mayor | Docker Desktop for Windows | ✅    |
 | Windows 10 Home       | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
 | Windows 10 Pro        | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
 | Windows 10 Education  | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
@@ -87,10 +91,6 @@ Ahora ya conocemos la información de nuestro sistema operativo, esto nos dará 
 | Windows 11 Pro        | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
 | Windows 11 Education  | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
 | Windows 11 Enterprise | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
-| Windows 11 Home       | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
-| Windows 11 Pro        | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
-| Windows 11 Education  | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
-| Windows 11 Enterprise | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
 | Windows 8             | 64 bits      | Cualquiera   | Docker  ToolBox            | ✅    |
 | Windows 8.1           | 64 bits      | Cualquiera   | Docker  ToolBox            | ✅    |
 | Windows 7             | 64 bits      | Cualquiera   | Docker  ToolBox            | ✅    |
@@ -98,13 +98,13 @@ Ahora ya conocemos la información de nuestro sistema operativo, esto nos dará 
 De acuerdo con la documentación, el requisito fundamnetal es que la arquitectura de la computadora sea de 64 bits, por lo que se desonoce si funcione en una arquitectura de 32 bits, lo más probable es que no.
 **Nota:** Actualizaré el repositorio si tuviera información de versiones en las que si se les puede instalar.
 
-##  3. <a name='Instalarenversionesantiguas78y10home'></a>Instalar en versiones antiguas (7, 8 y 10 home)
+##  3. <a name='VersionAntigua'></a>Instalar en versiones antiguas (7, 8 y 10 home)
 A continuación se describen los pasos a realizar para la instalación de Docker Desktop en versines antiguas de Windows. 
 Así cómo lo menciona la documentación oficial de Docker. este método es poco garantizado, debido a que el soporte para estas versiones del sistema operativo quedó descontinuado desde el 2019, por lo que programa a instalar es con la última versión de dicho año.
 
 [Documentación ofical de Docker](https://docs.docker.com/toolbox/)
 
-###  3.1. <a name='DescargarelinstaladorDockerToolBox'></a>Descargar el instalador Docker ToolBox
+###  3.1. <a name='DockerToolBox'></a>Descargar el instalador Docker ToolBox
 Los primero es descargar el siguiente instalador. Para garantizar que es de confianza, se descarga del reposiotario oficial.  
 
 
@@ -143,7 +143,7 @@ Los primero es descargar el siguiente instalador. Para garantizar que es de conf
   Hipervisor de código abierto para Windows y se utiliza para emular sistemas operativos en su sistema Windows.
 
 
-###  3.2. <a name='Ejecutarelinstalador'></a>Ejecutar el instalador
+###  3.2. <a name='EjecutarInstaladorToolBox'></a>Ejecutar el instalador
 Una vez descargado, lo que se procede a realizar es ejecutar el intalador.
 
 1.- Ejecutamos el instalador. Y se nos abrirá una ventana cómo la siguiente. Solo debemos dar clic en el botón de *next*. 
@@ -279,6 +279,7 @@ Ahora, vamos a proceder a descargar el instalador *Desktop for Windows* para pro
     <img src="./images/dockerforwindows6.jpg" />
    </p>
 Y listo, tendríamos instalado Docker Desktop para poder utilizarlo. 
+
 ###  4.4. <a name='ConfigurarDockerDesktop'></a>Configurar Docker Desktop
 1. Al iniciar por primer vez el programa, vamos a ver una ventana cómo la siguiente.
    Podemos seguir el tutorial que nos muestra o podemos saltarnos esta parte.
@@ -294,3 +295,17 @@ Y listo, tendríamos instalado Docker Desktop para poder utilizarlo.
     <img src="./images/dockerforwindows-init3.jpg" />
    </p>
 Listo, ya tenemos Docker Desktop instalado y preparado para poder empezar a utiliarlo, para gestionar nuestras imagenes, volumenes y contenedores de Docker.
+
+##  5. <a name='Problemas'></a>Problemas al ejecutar Docker Desktop
+
+###  5.1 <a name='Daemon'></a>This error may indicate that the docker daemon is not running. The system cannot find the file specified.
+
+###  5.2 <a name='Stopped'></a>Docker Desktop stopped
+
+
+##  6. <a name='Referencias'></a>Referencias
+Esta pequeña guía fue elaborada en base a la documentación oficial de Docker y Microsoft. 
+
+* [Instalación de Docker en Windows](https://docs.docker.com/desktop/windows/install/).
+* [Problemas al instalar Docker](https://docs.docker.com/desktop/windows/troubleshoot/).
+* [Manual de usuario de Docker](https://docs.docker.com/desktop/windows/).
