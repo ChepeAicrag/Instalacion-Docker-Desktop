@@ -4,23 +4,29 @@
 Manual de instalación de Docker Desktop para Windows.
 
 ##  1. <a name='TabladeContenido'></a>Tabla de Contenido 
-* 1. [Prerequisitos](#Prerequisitos)
+1. [Prerequisitos](#Prerequisitos)
 	* 1.1. [Verificar versión de Windows](#VerificarVersionWindows)
 	* 1.2. [Verificar el estado de la virsualización en Windows](#VerificarVirtualizacionWindows)
 	* 1.3. [Verificar por cual método instalar Docker Desktop](#VerificarMetodo)
 
-* 2. [Instalar en versiones antiguas (7, 8 y 10 home)](#VersionAntigua)
+2. [Instalar en versiones antiguas (7, 8 y 10 home)](#VersionAntigua)
 	* 2.1. [Descargar el instalador Docker ToolBox](#DockerToolBox)
 	* 2.2. [Ejecutar el instalador](#EjecutarInstaladorToolBox)
-    * 2.3. [Ejecutar Docekr Quickstart](#EjecutarDockerQuickstart)
+	* 2.3. [Ejecutar Docekr Quickstart](#EjecutarDockerQuickstart)
 	
-* 3. [Instalar en versiones más recientes](#VersionReciente)
-    * 3.1 [Pasos para instalación con WSL-2](#InstalacionWSL)
-    * 3.2 [Pasos para instalación con Hyper-V](#InstalacionHyper-V)
+3. [Instalar en versiones más recientes](#VersionReciente)
+    	
+	* 3.1 [Pasos para instalación con WSL-2](#InstalacionWSL)
+   	* 3.2 [Pasos para instalación con Hyper-V](#InstalacionHyper-V)
 	* 3.3 [Crear una cuenta en Docker Hub](#DockerHub)
-    * 3.4 [Instalar Docker Desktop for Windows](#DescargarEInstalarDockerForWindows)
-    * 3.5 [Configurar Docker Desktop](#ConfigDockerDesktop)
-* 4. [Referencias](#Referencias)
+	* 3.4 [Instalar Docker Desktop for Windows](#DescargarEInstalarDockerForWindows)
+	* 3.5 [Configurar Docker Desktop](#ConfigurarDockerDesktop)
+    	
+4. [Solucion a problemas](#Problemas)
+ 	* 4.1 [This error may indicate that the docker daemon is not running. The system cannot find the file specified.](#Daemon)
+ 	* 4.2 [Docker Desktop stopped](#Stopped)
+
+5. [Referencias](#Referencias)
 
 
 ##  2. <a name='Prerequisitos'></a>Prerequisitos
@@ -273,6 +279,7 @@ Ahora, vamos a proceder a descargar el instalador *Desktop for Windows* para pro
     <img src="./images/dockerforwindows6.jpg" />
    </p>
 Y listo, tendríamos instalado Docker Desktop para poder utilizarlo. 
+
 ###  4.4. <a name='ConfigurarDockerDesktop'></a>Configurar Docker Desktop
 1. Al iniciar por primer vez el programa, vamos a ver una ventana cómo la siguiente.
    Podemos seguir el tutorial que nos muestra o podemos saltarnos esta parte.
@@ -289,7 +296,14 @@ Y listo, tendríamos instalado Docker Desktop para poder utilizarlo.
    </p>
 Listo, ya tenemos Docker Desktop instalado y preparado para poder empezar a utiliarlo, para gestionar nuestras imagenes, volumenes y contenedores de Docker.
 
-##  5. <a name='Referencias'></a>Referencias
+##  5. <a name='Problemas'></a>Problemas al ejecutar Docker Desktop
+
+###  5.1 <a name='Daemon'></a>This error may indicate that the docker daemon is not running. The system cannot find the file specified.
+
+###  5.2 <a name='Stopped'></a>Docker Desktop stopped
+
+
+##  6. <a name='Referencias'></a>Referencias
 Esta pequeña guía fue elaborada en base a la documentación oficial de Docker y Microsoft. 
 
 * [Instalación de Docker en Windows](https://docs.docker.com/desktop/windows/install/).
