@@ -85,11 +85,6 @@ Ahora ya conocemos la información de nuestro sistema operativo, esto nos dará 
 | Windows 11 Pro        | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
 | Windows 11 Education  | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
 | Windows 11 Enterprise | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
-<!-- | Windows 11 Home       | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
-| Windows 11 Pro        | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
-| Windows 11 Education  | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
-| Windows 11 Enterprise | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
--->
 | Windows 8             | 64 bits      | Cualquiera   | Docker  ToolBox            | ✅    |
 | Windows 8.1           | 64 bits      | Cualquiera   | Docker  ToolBox            | ✅    |
 | Windows 7             | 64 bits      | Cualquiera   | Docker  ToolBox            | ✅    |
