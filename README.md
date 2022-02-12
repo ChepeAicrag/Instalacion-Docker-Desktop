@@ -73,10 +73,10 @@ Ahora ya conocemos la información de nuestro sistema operativo, esto nos dará 
 
 | Sistema Operativo     | Arquitectura | Build        | Método                     | Apto |
 | --------------------- | ------------ | ------------ | -------------------------- | ---- |
-| Windows 10 Home       | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
-| Windows 10 Pro        | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
-| Windows 10 Education  | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
-| Windows 10 Enterprise | 64 bits      | 21H2 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Home       | 64 bits      | 20H1 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Pro        | 64 bits      | 20H1 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Education  | 64 bits      | 1909 o mayor | Docker Desktop for Windows | ✅    |
+| Windows 10 Enterprise | 64 bits      | 1909 o mayor | Docker Desktop for Windows | ✅    |
 | Windows 10 Home       | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
 | Windows 10 Pro        | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
 | Windows 10 Education  | 32 bits      | Cualquiera   | Ninguno                    | ❌    |
