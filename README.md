@@ -304,6 +304,7 @@ Este error se visualiza cuando intentamos ejecutar algún comando de Docker. Y e
    <p align="center">
     <img src="./images/daemon.png" />
    </p>
+   
 La solución a este problema se da con los siguientes pasos: 
 
 1. Desinstala Docker Desktop.
@@ -315,7 +316,22 @@ La solución a este problema se da con los siguientes pasos:
 Y listo, con eso se soluciona este error. Si por casualidad tu error persiste, puedes aplicar la misma solución del siguiente problema. 
 
 ###  5.2 <a name='Stopped'></a>Docker Desktop stopped
+Este error consiste en que el demonio de Docker no inicia, por lo que no el servicio de Docker tampoco se encuentra funcionando. Y al abrir Docker Desktop vamos a ver un mensaje cómo el de la siguiente imagen.
+   <p align="center">
+    <img src="./images/stopped.png" />
+   </p>
+   
+La solución para este problema es sencillo. Sigue los siguientes pasos.
 
+1. Abre la terminal *CMD* o *Power Shell*.
+2. Ejecuta el siguiente comando:
+```bash
+cd "C:\Program Files\Docker\Docker"
+DockerCli.exe -SwitchDaemon
+```
+3. Reinicia la computadora. 
+
+Y listo, ya tendríamos solucionado el problema. 
 
 ##  6. <a name='Referencias'></a>Referencias
 Esta pequeña guía fue elaborada en base a la documentación oficial de Docker y Microsoft. 
