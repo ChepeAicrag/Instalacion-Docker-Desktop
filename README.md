@@ -324,7 +324,7 @@ Este error consiste en que el demonio de Docker no inicia, por lo que no el serv
 La solución para este problema es sencillo. Sigue los siguientes pasos.
 
 1. Abre la terminal *CMD* o *Power Shell*.
-2. Ejecuta el siguiente comando:
+2. Ejecuta el siguiente comando. Hay que esperar unos minutos, en los que se realiza el cambio. 
 ```bash
 cd "C:\Program Files\Docker\Docker"
 DockerCli.exe -SwitchDaemon
